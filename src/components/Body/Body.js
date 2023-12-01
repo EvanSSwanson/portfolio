@@ -12,6 +12,10 @@ const Body = () => {
 
   return (
     <div className='Body' style={myStyle}>
+        <div className="frame-container">
+      <div className="monitor-frame">
+      </div>
+    </div>
     </div>
   );
 }
