@@ -1,0 +1,25 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 14vw;
+    padding-top: 1vw;
+    background-color: beige;
+    position: fixed;
+    top: .001vw;
+}
+
+.logo {
+    height: 8vw;
+    width: 8vw;
+}
+
+.nav-directory {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }

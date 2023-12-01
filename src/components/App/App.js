@@ -1,17 +1,20 @@
 import './App.css';
-import background from '../../resources/vaporwave-body.png'
+import Body from '../Body/Body'
+import Navbar from '../Navbar/Navbar'
 
-function App() {
-  
-  const myStyle = {
-    backgroundImage: `url(${background})`,
-    height: "300vw",
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-};
+const App = () => {
 
   return (
-    <div className="App" style={myStyle}>
+    <div className='App'>
+      <div className="container">
+      <div className="monitor-frame">
+        {/* Your app content goes here */}
+        <h1>Welcome to My 80's React App!</h1>
+        {/* Add your React components and content here */}
+      </div>
+    </div>
+      {/* <Navbar/>
+      <Body/> */}
     </div>
   );
 }
