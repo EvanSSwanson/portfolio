@@ -1,0 +1,28 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    height: 8vw;
+    width: 26vw;
+    padding-bottom: .75vw;
+    background-color: #3a293e;
+    -webkit-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    -moz-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    box-shadow: 14px 14px 0px 0px #e3538ea1;
+    cursor: default;
+}
+
+.projects-title {
+    font-family: 'VT323';
+    color: #ffffff;
+    font-size: 7.5vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+}
