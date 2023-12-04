@@ -1,5 +1,6 @@
 import './Body.css';
 import background from '../../resources/vaporwave-body.png'
+import monitor from '../../resources/vaporwave-monitor.png'
 
 const Body = () => {
   
@@ -12,10 +13,14 @@ const Body = () => {
 
   return (
     <div className='Body' style={myStyle}>
-        <div className="frame-container">
-      <div className="monitor-frame">
-      </div>
-    </div>
+        {/* <div className='welcome-section'>
+            <img src={monitor} className='monitor'></img>
+            <div className='inside-monitor'>
+                <h1 className='hello'>hello.</h1>
+                <h1 className='i-am'>i'm evan.</h1>
+            </div>            
+            <h2 className='i-create'>i create things.</h2>
+        </div> */}
     </div>
   );
 }
