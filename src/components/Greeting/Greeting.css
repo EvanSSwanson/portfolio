@@ -1,0 +1,94 @@
+.Greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21vw;
+    width: 45vw;
+    margin-top: 13vw;
+    margin-left: 17vw;
+    padding-left: 2vw;
+    background-color: #3a293e;
+    -webkit-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    -moz-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    box-shadow: 14px 14px 0px 0px #e3538ea1;
+    cursor: default;
+}
+
+.hello {
+    font-family: 'VT323';
+    color: #ffffff;
+    font-size: 11vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+}
+
+.hello span{
+    border-left: .75vw solid #ffffff;
+    animation: hellocursor .9s infinite
+}
+
+.animated-text-container {
+    display:flex;
+    height: 6vw;
+    width: 45vw;
+    margin-left: 1.5vw;
+}
+
+.animated-text{
+    font-size: 7vw;
+    font-family: 'VT323';
+    color: #ffffff;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "a";
+    animation: words 12s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + .1vw);
+    height: 100%;
+    background-color: #3a293e;
+    border-left: .4vw solid #ffffff;
+    right: -.1vw;
+    animation: cursor .9s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes hellocursor {
+    to{
+        border-left: .75vw solid #ffffff02;
+    }
+}
+
+@keyframes cursor {
+    to{
+        border-left: .4vw solid #ffffff02;
+    }
+}
+
+@keyframes words {
+    0%, 33%{
+        content: 'a Developer';
+    }
+    34%, 67%{
+        content: 'a Designer';
+    }
+    68%, 100%{
+        content: 'Evan.';
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + .1vw);
+    }
+}
