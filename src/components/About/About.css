@@ -1,0 +1,67 @@
+.About {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15.5vw;
+}
+
+.description-container {
+    background-color: #3a293e;
+    height: 20vw;
+    width: 50vw;
+    -webkit-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    -moz-box-shadow: 14px 14px 0px 0px #e3538ea1;
+    box-shadow: 14px 14px 0px 0px #e3538ea1;
+    cursor: default;
+}
+
+.description-line1, .description-line2 {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    color: #fbe6e6;
+    font-size: 1.5vw;
+    font-family: 'Jost';
+}
+
+.span-font {
+    font-family: 'VT323';
+    font-size: 1.65vw;
+}
+
+.questioner-container {
+    height: .5vw;
+    width: .5vw;
+}
+
+.questioner {
+    height: 13vw;
+    width: 13vw;
+    margin-top: -10vw;
+    margin-left: -10.5vw;
+}
+
+.questioner:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
+
+.click-container {
+    height: .5vw;
+    width: .5vw;
+}
+
+.click {
+    margin-left: -5vw;
+    margin-top: 3.25vw;
+    width: 6vw;
+    color: #fbe6e6;
+    font-size: 1.5vw;
+    font-family: 'VT323';
+    transform: rotate(-20deg);
+}
+
+.me-pic {
+    height: 22vw;
+    width: 22vw;
+}

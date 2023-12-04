@@ -1,6 +1,7 @@
 import './Body.css';
 import background from '../../resources/vaporwave-body.png'
 import Greeting from '../Greeting/Greeting'
+import About from '../About/About'
 
 const Body = () => {
   
@@ -14,6 +15,7 @@ const Body = () => {
   return (
     <div className='Body' style={myStyle}>
         <Greeting/>
+        <About/>
     </div>
   );
 }
