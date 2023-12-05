@@ -1,4 +1,4 @@
-import './Navbar.css';
+import './Navbar.css'
 import logo from '../../resources/monitor-logo.png'
 
 const Navbar = () => {
@@ -15,4 +15,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default Navbar

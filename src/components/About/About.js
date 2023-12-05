@@ -1,4 +1,4 @@
-import './About.css';
+import './About.css'
 import mePic from '../../resources/me-pic.png'
 import questioner from '../../resources/vaporwave-questioner.png'
 import { aboutText1, aboutText2, aboutText3 } from '../../resources/aboutText'
@@ -24,4 +24,4 @@ const About = () => {
   );
 }
 
-export default About;
+export default About

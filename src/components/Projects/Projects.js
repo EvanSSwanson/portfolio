@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Projects.css'
 
 const Projects = () => {
 
@@ -8,10 +8,10 @@ const Projects = () => {
             <h1 className='projects-title'>Projects</h1>
         </div>
         <div className='card-container'>
-            
+
         </div>
     </div>
   );
 }
 
-export default Projects;
+export default Projects

@@ -1,4 +1,4 @@
-import './Greeting.css';
+import './Greeting.css'
 
 const Greeting = () => {
 
@@ -12,4 +12,4 @@ const Greeting = () => {
   );
 }
 
-export default Greeting;
+export default Greeting

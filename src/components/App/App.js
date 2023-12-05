@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import Body from '../Body/Body'
 import Navbar from '../Navbar/Navbar'
 
@@ -12,4 +12,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default App

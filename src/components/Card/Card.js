@@ -1,4 +1,4 @@
-import './Card.css';
+import './Card.css'
 
 const Card = () => {
 
@@ -8,4 +8,4 @@ const Card = () => {
   );
 }
 
-export default Card;
+export default Card
