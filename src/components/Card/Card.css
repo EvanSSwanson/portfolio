@@ -1,0 +1,26 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('../../resources/vaporwave-box.png');
+    height: 33vw;
+    width: 37vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1.75vw;
+}
+
+.Card:hover {
+    cursor: pointer;
+    transform: scale(1.008);
+    transition: all ease-in-out .3s;
+}
+
+.card-title {
+    font-family: 'VT323';
+    font-size: 2.1vw;
+    color: #ffffff;
+    margin-left: 1vw;
+    margin-top: 1.5vw;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
