@@ -16,4 +16,4 @@ You can visit the live site [here](https://evan-sundelius-swanson.netlify.app/).
 ## Attributions
 - Canva and Adobe Express; the majority of image creation/editing
 - Midjourney; computer monitor used in logo
-- ![Vecteezy](https://www.vecteezy.com/members/royaltyfreeartists); Greek bust png
+- [Vecteezy](https://www.vecteezy.com/members/royaltyfreeartists); Greek bust png
