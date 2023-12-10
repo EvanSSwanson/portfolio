@@ -61,6 +61,19 @@
     text-shadow: #000000 1px 0 10px;
 }
 
+#personal-email {
+    margin-bottom: .25vw;
+}
+
+#optional-vibe {
+    margin-bottom: -2vw;
+}
+
+#video {
+    height: 10vw;
+    width: 12vw;
+}
+
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-  }
+}
