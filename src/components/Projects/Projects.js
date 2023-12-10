@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 const Projects = () => {
 
   return (
-    <div className='Projects'>
+    <div className='Projects' id='Projects'>
         <div className='projects-title-container'>
             <h1 className='projects-title'>Projects</h1>
         </div>

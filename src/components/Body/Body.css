@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: column;
     width: 86vw;
-    margin-top: -2vw;
+    max-width: 86vw;
+    margin-top: 0vw;
     margin-left: 14vw;
     padding-top: 6vw;
     margin-bottom: 8vw;

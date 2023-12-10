@@ -6,7 +6,7 @@ import { aboutText1, aboutText2, aboutText3 } from '../../resources/aboutText'
 const About = () => {
 
   return (
-    <div className='About'>
+    <div className='About' id='About'>
             <div className='description-container'>
                 <h3 className='description-line1'>{aboutText1}<span className='span-font'> {aboutText2}</span></h3>
                 <h3 className='description-line2'>{aboutText3}</h3>

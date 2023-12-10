@@ -18,11 +18,6 @@
     color:#ffffff;
 }
 
-.card-block:hover {
-    transform: scale(1.08);
-    transition: all ease-in-out .3s;
-}
-
 .card-title {
     cursor: default;
     font-family: 'VT323';
@@ -31,7 +26,7 @@
     margin-left: 1vw;
     margin-top: 1.5vw;
     margin-bottom: .5vw;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    text-shadow: #000000 1px 0 10px;
 }
 
 .card-image, .card-gif {
@@ -51,6 +46,27 @@
 .Card:hover .card-gif {
     display: none;
 }
+
+.card-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35vw;
+    margin-top: .4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+  .card-technologies {
+    margin-bottom: .5vw;
+    font-size: 1.25vw;
+  }
+
+  .card-description {
+    margin-top: .5vw;
+    font-size: 1.25vw;
+  }
 
 .card-link-section {
     height: 3vw;
@@ -76,27 +92,14 @@
     color: #000000;
 }
 
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-  }
-
-.card-textbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 35vw;
-    margin-top: .4vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
+.card-link:hover {
+    transform: scale(1.04);
+    transition: all ease-in-out .3s;
+    -webkit-box-shadow: 10px 10px 22px -6px #000000bf;
+    -moz-box-shadow: 10px 10px 22px -6px #000000bf;
+    box-shadow: 10px 10px 22px -6px #000000bf;
 }
 
-  .card-technologies {
-    margin-bottom: .5vw;
-    font-size: 1.25vw;
-  }
-
-  .card-description {
-    margin-top: .5vw;
-    font-size: 1.25vw;
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
   }

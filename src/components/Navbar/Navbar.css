@@ -33,6 +33,32 @@
 .nav-directory {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 83vh;
+    padding-bottom: 2vh;
+    font-family: 'VT323';
+    font-size: 1.25vw;
+    color: #ffffff;
+}
+
+.divider {
+    height: .3vw;
+    width: 65%;
+    background-color: #ffffff;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.page-link, .personal-link {
+    color: #ffffff;
+    font-size: 2.5vw;
+}
+
+.page-link:hover, .personal-link:hover {
+    transform: scale(1.08);
+    transition: all ease-in-out .3s;
+    text-shadow: #000000 1px 0 10px;
 }
 
 a:link, a:visited, a:hover, a:active {
