@@ -6,7 +6,8 @@ const projectData = [
         gif: '../../resources/tempest.gif',
         link: 'tempestweather.netlify.app',
         github: 'https://github.com/EvanSSwanson/tempest',
-        technologies: 'React, JS, CSS, REST API',
+        technologies: 'React - JS - CSS - REST API',
+        order: 0,
     },
     {
         title: 'Bibliotheca Sundeliana',
@@ -15,7 +16,8 @@ const projectData = [
         gif: '../../resources/bibliotheca.gif',
         link: 'https://bibliotheca-sundeliana.netlify.app',
         github: 'https://github.com/EvanSSwanson/bibliotheca-sundeliana',
-        technologies: 'React, React Router, JS, CSS, REST API, Cypress',
+        technologies: 'React - React Router - JS - CSS - REST API - Cypress',
+        order: 1,
     },
     {
         title: 'Around the World',
@@ -24,7 +26,8 @@ const projectData = [
         gif: '../../resources/trivia.gif',
         link: 'https://around-the-world-trivia.netlify.app/',
         github: 'https://github.com/jwasmer/trivia',
-        technologies: 'React, React Router, TS, CSS, GraphQL, webpack, Cypress' ,
+        technologies: 'React - React Router - TS - CSS - GraphQL - webpack - Cypress' ,
+        order: 2,
     },
     {
         title: 'hangman.',
@@ -33,7 +36,8 @@ const projectData = [
         gif: '../../resources/hangman.gif',
         link: 'https://around-the-world-trivia.netlify.app/',
         github: 'https://github.com/EvanSSwanson/hangman',
-        technologies: 'React, JS, CSS' ,
+        technologies: 'React - JS - CSS' ,
+        order: 3,
     },
 ]
 

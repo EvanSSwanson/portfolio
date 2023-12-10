@@ -1,26 +1,102 @@
 .Card {
+    height: 36vw;
+    width: 37vw;
+    margin: 1.75vw;
+    margin-bottom: .25vw;
+}
+
+.card-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-image: url('../../resources/vaporwave-box.png');
-    height: 33vw;
+    height: 32vw;
     width: 37vw;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 1.75vw;
+    font-family: 'Jost';
+    color:#ffffff;
 }
 
-.Card:hover {
-    cursor: pointer;
-    transform: scale(1.008);
+.card-block:hover {
+    transform: scale(1.08);
     transition: all ease-in-out .3s;
 }
 
 .card-title {
+    cursor: default;
     font-family: 'VT323';
     font-size: 2.1vw;
     color: #ffffff;
     margin-left: 1vw;
     margin-top: 1.5vw;
+    margin-bottom: .5vw;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
+
+.card-image, .card-gif {
+    margin-left: .95vw;
+    height: 17vw;
+    width: 35vw;
+}
+
+.card-image {
+    display: none;
+}
+
+.Card:hover .card-image {
+    display:block;
+}
+
+.Card:hover .card-gif {
+    display: none;
+}
+
+.card-link-section {
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    border-style: solid;
+    border-width: .13vw;
+    border-color: #000000;
+    border-radius: .5vw;
+    height: 2.6vw;
+    width: 10vw;
+    font-family: 'VT323';
+    font-size: 2.4vw;
+    color: #000000;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
+
+.card-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35vw;
+    margin-top: .4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+  .card-technologies {
+    margin-bottom: .5vw;
+    font-size: 1.25vw;
+  }
+
+  .card-description {
+    margin-top: .5vw;
+    font-size: 1.25vw;
+  }
