@@ -17,3 +17,4 @@ You can visit the live site [here](https://evan-sundelius-swanson.netlify.app/).
 - Canva and Adobe Express; the majority of image creation/editing
 - Midjourney; computer monitor used in logo
 - [Vecteezy](https://www.vecteezy.com/members/royaltyfreeartists); Greek bust png
+- [Medusa KB](https://www.youtube.com/@medusakb); "Wavy" track
